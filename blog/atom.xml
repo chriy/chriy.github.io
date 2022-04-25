@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chriy.github.io/blog</id>
-    <title>Chriy · 记录每一次心动 Blog</title>
+    <title>Chris · A back-end develop engineer Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chriy.github.io/blog"/>
-    <subtitle>Chriy · 记录每一次心动 Blog</subtitle>
+    <subtitle>Chris · A back-end develop engineer Blog</subtitle>
     <icon>https://chriy.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

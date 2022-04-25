@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Chriy · 记录每一次心动 Blog</title>
+        <title>Chris · A back-end develop engineer Blog</title>
         <link>https://chriy.github.io/blog</link>
-        <description>Chriy · 记录每一次心动 Blog</description>
+        <description>Chris · A back-end develop engineer Blog</description>
         <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
