@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchriy_github_io=self.webpackChunkchriy_github_io||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"All Posts","items":[{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);
