@@ -1,0 +1,42 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    name: Build and deploy
+    steps:
+      - name: Pull Code
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Use nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Use Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          full_commit_message: Automatic compilation and deployment
