@@ -19,7 +19,7 @@ export default function Home() {
                             to={useBaseUrl("/docs/intro")}>Start</Link>
                     </div>
                     <div className="col col--6 col--offset-1">
-                        <img src='img/programmer.svg' alt=''/>
+                        <img src='img/freelancer.svg' alt=''/>
                     </div>
                 </div>
             </div>

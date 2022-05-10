@@ -69,7 +69,7 @@ const config = {
             },
             prism: {
                 // Highlight code
-                additionalLanguages: ['java','go','kotlin'],
+                additionalLanguages: ['java', 'go', 'kotlin', 'c'],
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
