@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chriy.github.io/blog</id>
     <title>Chris · A back-end develop engineer Blog</title>
-    <updated>2022-05-10T13:34:26.000Z</updated>
+    <updated>2022-05-11T14:46:44.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chriy.github.io/blog"/>
     <subtitle>Chris · A back-end develop engineer Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://chriy.github.io/blog/welcome"/>
-        <updated>2022-05-10T13:34:26.000Z</updated>
+        <updated>2022-05-11T14:46:44.000Z</updated>
         <summary type="html"><![CDATA[Intro]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="intro">Intro<a class="hash-link" href="#intro" title="Direct link to heading">​</a></h2><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
     </entry>
