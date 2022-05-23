@@ -1,6 +1,7 @@
 ---
 slug: install
 title: 二进制安装Docker
+tags: ['docker']
 ---
 
 :::info
@@ -17,8 +18,9 @@ $ wget https://download.docker.com/linux/static/stable/x86_64/docker-20.10.14.tg
 # 添加可执行权限
 $ chmod +x docker/*
 
-# 移动到 /usr/bin 目录
-$ mv docker/* /usr/bin
+# 移动到 /usr/local/bin 目录 (注：也可以放在 /usr/bin 目录下, 
+# 但是该目录会随着系统的更新而更新, 原文件会被覆盖掉)
+$ mv docker/* /usr/local/bin
 ```
 
 ### 2. 新建docker.service文件

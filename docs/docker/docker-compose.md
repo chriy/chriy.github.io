@@ -1,6 +1,7 @@
 ---
 slug: docker-compose
 title: Compose
+tags: ['docker']
 ---
 
 :::info
