@@ -112,7 +112,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 ```javascript
 <script type="text/javascript">
-    const socket = new WebSocket("ws://eample.com/message")
+    const socket = new WebSocket("ws://example.com/message")
     // 建立连接
     socket.onopen = () => console.log("connect established")
     // 收到服务端消息
