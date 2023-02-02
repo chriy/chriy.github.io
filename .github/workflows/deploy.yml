@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     name: Build and deploy
     steps:
@@ -36,7 +36,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./build
           publish_branch: gh-pages
           full_commit_message: 'chore: auto build page -> ${{ github.event.head_commit.message }}'
