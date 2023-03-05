@@ -21,18 +21,18 @@ Compose是一个用于定义和运行多容器Docker应用程序的工具。使�
 ```yaml
 version: "3.9"  # optional since v1.27.0
 services:
-  nginx: 
+  nginx:
     restart: unless-stopped #重启策略
     image: nginx:latest # 镜像名称
     container_name: nginx #容器名称
     build: .
     ports:
-    - "443:443"  # 端口映射，可以配置多个
-    volumes:  # 容器内数据卷挂载
-    - ./nginx/conf.d:/etc/nginx/conf.d
-    - ./nginx/html:/usr/share/nginx/html
-    - ./nginx/logs:/var/log/nginx
-    - ./nginx/ssl:/ssl:ro
+      - "443:443"  # 端口映射，可以配置多个
+    volumes: # 容器内数据卷挂载
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/logs:/var/log/nginx
+      - ./nginx/ssl:/ssl:ro
     network_mode: prod  # 网络模式
 ```
 
