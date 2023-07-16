@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchriy_github_io=self.webpackChunkchriy_github_io||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"docker","permalink":"/docs/tags/docker","count":3}]')}}]);
