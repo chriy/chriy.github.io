@@ -193,7 +193,7 @@ KillMode=process
 
 # 可以指定一下代理，加速 containerd 拉取镜像，并指定 podSubnet serviceSubnet 的网络不走代理
 Environment="HTTP_PROXY=http://127.0.0.1:7890"
-Environment="HTTPS_PROXY=http://10.0.0.1:7890"
+Environment="HTTPS_PROXY=http://127.0.0.1:7890"
 Environment="NO_PROXY=10.96.0.0/16,127.0.0.1,10.2.0.0/16,localhost"
 
 [Install]
