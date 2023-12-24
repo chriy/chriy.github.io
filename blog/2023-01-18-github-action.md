@@ -101,7 +101,7 @@ run: |
   - 配置token，有三种(github_token,deploy_token,personal_token), 具体 [参考地址](https://github.com/peaceiris/actions-gh-pages)
     - personal_token 设置：
       - 在 [https://github.com/settings/tokens](https://github.com/settings/tokens) 添加一个token并配置权限 
-      - 找到需要用到token的仓库，进入 settings -> Secrets and variables -> Action 把刚刚创建好的token添加到这里，就可以在 ${{ secrets.名称 }} 访问了
+      - 找到需要用到token的仓库，进入 settings -> Secrets and variables -> Action 把刚刚创建好的token添加到这里，就可以在 `${{ secrets.名称 }}` 访问了
   - 指定推送的分支和目录
   - 指定commit信息
 ```yaml
